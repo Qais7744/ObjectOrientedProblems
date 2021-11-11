@@ -11,7 +11,7 @@ public class AccountList {
         if (amount >= debitAmount)
             return amount - debitAmount;
         else {
-            System.out.println("Exceeded the limit Please check balance");
+            System.out.println("Exceeded The limit Please Check Balance");
             return amount;
         }
     }
